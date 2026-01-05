@@ -1,0 +1,684 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
+  <diagram id="ai-tools-map" name="AIツールマップ">
+    <mxGraphModel dx="1483" dy="1123" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=1;fontFamily=Hiragino Sans;fontColor=#333333;" value="🤖 AIツール マップ 2026" vertex="1">
+          <mxGeometry height="60" width="600" x="875" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cat01" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Hiragino Sans;rounded=1;" value="💬 チャットAI（会話するAI）" vertex="1">
+          <mxGeometry height="380" width="606" x="40" y="100" as="geometry">
+            <mxRectangle height="40" width="305" x="40" y="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cat01_desc" parent="cat01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="自然言語で対話できるAIアシスタント" vertex="1">
+          <mxGeometry height="25" width="400" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="chatgpt" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="ChatGPT" vertex="1">
+          <mxGeometry height="30" width="285" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="chatgpt_d" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="OpenAI製のAI" vertex="1">
+          <mxGeometry height="30" width="280" x="291" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gemini" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Gemini" vertex="1">
+          <mxGeometry height="30" width="288" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="gemini_d" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製のAI" vertex="1">
+          <mxGeometry height="30" width="280" x="291" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="claude" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Claude" vertex="1">
+          <mxGeometry height="30" width="287" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="claude_d" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Anthropic製のAI" vertex="1">
+          <mxGeometry height="30" width="280" x="291" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="copilot_chat" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Copilot" vertex="1">
+          <mxGeometry height="30" width="288" x="10" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="copilot_chat_d" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Microsoft製のAIアシスタント" vertex="1">
+          <mxGeometry height="30" width="280" x="291" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="grok" parent="cat01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Grok" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="grok_d" parent="cat01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="xAI製のリアルタイム情報AI" vertex="1">
+          <mxGeometry height="30" width="280" x="291" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qwen" parent="cat01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Qwen" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="qwen_d" parent="cat01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Alibaba製のAI" vertex="1">
+          <mxGeometry height="30" width="280" x="291" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="voice_title" parent="cat01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;fontColor=#333333;" value="🎤 音声アシスタント" vertex="1">
+          <mxGeometry height="25" width="200" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="siri" parent="cat01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Siri" vertex="1">
+          <mxGeometry height="30" width="80" x="10" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="alexa" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Alexa" vertex="1">
+          <mxGeometry height="30" width="80" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="gassist" parent="cat01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Google Assistant" vertex="1">
+          <mxGeometry height="30" width="180" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cat02" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Hiragino Sans;rounded=1;" value="🎨 画像生成AI（絵を作るAI）" vertex="1">
+          <mxGeometry height="345" width="494" x="662" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat02_desc" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="テキストから画像を生成するAI" vertex="1">
+          <mxGeometry height="25" width="300" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="midjourney" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Midjourney" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="midjourney_d" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="芸術的な画像生成に強い" vertex="1">
+          <mxGeometry height="30" width="280" x="179" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dalle" parent="cat02" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="DALL-E" vertex="1">
+          <mxGeometry height="30" width="247" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="dalle_d" parent="cat02" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="OpenAI製の画像生成AI" vertex="1">
+          <mxGeometry height="30" width="280" x="179" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="sd" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Stable Diffusion" vertex="1">
+          <mxGeometry height="30" width="182" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sd_d" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="オープンソースの画像生成" vertex="1">
+          <mxGeometry height="30" width="250" x="179" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flux" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Flux" vertex="1">
+          <mxGeometry height="30" width="150" x="10" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="flux_d" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Black Forest Labs製の高品質生成" vertex="1">
+          <mxGeometry height="30" width="250" x="179" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="firefly" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Adobe Firefly" vertex="1">
+          <mxGeometry height="30" width="150" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="firefly_d" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="商用利用に安心のAdobe製" vertex="1">
+          <mxGeometry height="30" width="250" x="179" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nanobanana" parent="cat02" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Nano-Banana" vertex="1">
+          <mxGeometry height="30" width="187" x="10" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="nanobanana_d" parent="cat02" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製の画像生成AI" vertex="1">
+          <mxGeometry height="30" width="281" x="179" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="qwenimage" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Qwen-Image" vertex="1">
+          <mxGeometry height="30" width="150" x="10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qwenimage_d" parent="cat02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Alibaba製の画像生成AI" vertex="1">
+          <mxGeometry height="30" width="250" x="179" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cat02v" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Hiragino Sans;rounded=1;" value="🎬 動画生成AI（動画を作るAI）" vertex="1">
+          <mxGeometry height="200" width="380" x="1180" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat02v_desc" parent="cat02v" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="テキストや画像から動画を生成" vertex="1">
+          <mxGeometry height="25" width="300" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sora" parent="cat02v" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Sora" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sora_d" parent="cat02v" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="OpenAI製の高品質動画生成" vertex="1">
+          <mxGeometry height="30" width="223" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="runway" parent="cat02v" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Runway" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="runway_d" parent="cat02v" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="クリエイター向け動画AI" vertex="1">
+          <mxGeometry height="30" width="222" x="110" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="veo" parent="cat02v" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Veo" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="veo_d" parent="cat02v" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製の動画生成AI" vertex="1">
+          <mxGeometry height="30" width="225" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cat03" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Hiragino Sans;rounded=1;" value="🎵 音楽生成AI（音楽を作るAI）" vertex="1">
+          <mxGeometry height="130" width="360" x="1579" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat03_desc" parent="cat03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="テキストから音楽を生成" vertex="1">
+          <mxGeometry height="25" width="300" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="suno" parent="cat03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Suno" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="suno_d" parent="cat03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="歌詞付き楽曲を自動生成" vertex="1">
+          <mxGeometry height="30" width="240" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cat04" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Hiragino Sans;rounded=1;" value="🔍 AI検索（AIで調べる）" vertex="1">
+          <mxGeometry height="345" width="501" x="1959" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat04_desc" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIが情報を検索・要約して回答" vertex="1">
+          <mxGeometry height="25" width="300" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="perplexity" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Perplexity" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="perplexity_d" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="対話型AI検索エンジン" vertex="1">
+          <mxGeometry height="30" width="280" x="199" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="googleai" parent="cat04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Google AI モード" vertex="1">
+          <mxGeometry height="30" width="193" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="googleai_d" parent="cat04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google検索のAI要約機能" vertex="1">
+          <mxGeometry height="30" width="280" x="199" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bing" parent="cat04" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Bing" vertex="1">
+          <mxGeometry height="30" width="198" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bing_d" parent="cat04" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Microsoft製AI統合検索" vertex="1">
+          <mxGeometry height="30" width="280" x="199" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="notebooklm" parent="cat04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="NotebookLM" vertex="1">
+          <mxGeometry height="30" width="199" x="10" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="notebooklm_d" parent="cat04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="文書分析・要約のGoogle製AI" vertex="1">
+          <mxGeometry height="30" width="280" x="199" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="genspark_search" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="GenSpark" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="genspark_search_d" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIエージェント搭載検索" vertex="1">
+          <mxGeometry height="30" width="280" x="199" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="felo" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Felo" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="felo_d" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="多言語対応AI検索エンジン" vertex="1">
+          <mxGeometry height="30" width="280" x="199" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="kagi" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Kagi" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="kagi_d" parent="cat04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="プライバシー重視のAI検索" vertex="1">
+          <mxGeometry height="30" width="280" x="199" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cat05" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Hiragino Sans;rounded=1;" value="💻 コード作成AI（プログラムを書くAI）" vertex="1">
+          <mxGeometry height="635" width="1120" x="40" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cat05_desc" parent="cat05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="プログラミングを支援するAIツール群" vertex="1">
+          <mxGeometry height="25" width="400" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cat05_01" parent="cat05" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#f3e5f5;strokeColor=#9673a6;fontFamily=Hiragino Sans;rounded=1;" value="⌨️ CLI型（コマンドライン）" vertex="1">
+          <mxGeometry height="310" width="350" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="claudecode" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Claude Code" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="claudecode_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Anthropic製CLI" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cursorcli" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Cursor CLI" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cursorcli_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Cursorのターミナル版" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aider" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Aider" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aider_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Git統合AIペアプログラマー" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="geminicli" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Gemini CLI" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="geminicli_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製CLI" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="codex" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Codex" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="codex_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="OpenAI製CLI" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ghcli" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="GitHub Copilot CLI" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ghcli_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="ターミナルでAI補完" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="opencode" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="OpenCode" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="opencode_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="OSS製ターミナルAI" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="goose" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Goose" vertex="1">
+          <mxGeometry height="25" width="180" x="10" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="goose_d" parent="cat05_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Block製AIエージェント" vertex="1">
+          <mxGeometry height="25" width="150" x="190" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cat05_02" parent="cat05" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#f3e5f5;strokeColor=#9673a6;fontFamily=Hiragino Sans;rounded=1;" value="🔌 IDE統合型（エディタ拡張）" vertex="1">
+          <mxGeometry height="230" width="390" x="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ghcopilot" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="GitHub Copilot" vertex="1">
+          <mxGeometry height="25" width="189" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ghcopilot_d" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="コード補完の定番" vertex="1">
+          <mxGeometry height="25" width="180" x="196" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cline" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Cline" vertex="1">
+          <mxGeometry height="25" width="150" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cline_d" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="自律型コーディング" vertex="1">
+          <mxGeometry height="25" width="180" x="196" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="codeium" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Codeium" vertex="1">
+          <mxGeometry height="25" width="150" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="codeium_d" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="無料で高機能" vertex="1">
+          <mxGeometry height="25" width="180" x="196" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tabnine" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Tabnine" vertex="1">
+          <mxGeometry height="25" width="150" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tabnine_d" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="プライバシー重視" vertex="1">
+          <mxGeometry height="25" width="180" x="196" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jbai" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="JetBrains AI" vertex="1">
+          <mxGeometry height="25" width="150" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jbai_d" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="JetBrains IDE専用" vertex="1">
+          <mxGeometry height="25" width="180" x="196" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="geminicodeassist" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Gemini Code Assist" vertex="1">
+          <mxGeometry height="25" width="206" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="geminicodeassist_d" parent="cat05_02" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製IDE拡張" vertex="1">
+          <mxGeometry height="25" width="180" x="196" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cat05_03" parent="cat05" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#f3e5f5;strokeColor=#9673a6;fontFamily=Hiragino Sans;rounded=1;" value="📝 AIエディタ型（専用GUI）" vertex="1">
+          <mxGeometry height="160" width="343" x="769" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cursor" parent="cat05_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Cursor" vertex="1">
+          <mxGeometry height="25" width="120" x="37" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cursor_d" parent="cat05_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AI特化エディタの人気No.1" vertex="1">
+          <mxGeometry height="25" width="179" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="windsurf" parent="cat05_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Windsurf" vertex="1">
+          <mxGeometry height="25" width="120" x="37" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="windsurf_d" parent="cat05_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Codeium製AIエディタ" vertex="1">
+          <mxGeometry height="25" width="179" x="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="antigravity" parent="cat05_03" style="text;html=1;strokeColor=none;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Antigravity" vertex="1">
+          <mxGeometry height="25" width="131" x="37" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="antigravity_d" parent="cat05_03" style="text;html=1;strokeColor=none;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;labelBackgroundColor=none;" value="AI搭載コードエディタ" vertex="1">
+          <mxGeometry height="25" width="179" x="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat05_04" parent="cat05" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#f3e5f5;strokeColor=#9673a6;fontFamily=Hiragino Sans;rounded=1;" value="🤖 AIエージェント型（自律型）" vertex="1">
+          <mxGeometry height="212" width="416" x="455" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="devin" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Devin" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="devin_d" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="自律型AIエンジニア" vertex="1">
+          <mxGeometry height="25" width="230" x="219" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="manus" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Manus" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="manus_d" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="汎用AIエージェント" vertex="1">
+          <mxGeometry height="25" width="230" x="219" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jules" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Jules" vertex="1">
+          <mxGeometry height="25" width="220" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jules_d" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製AIエージェント" vertex="1">
+          <mxGeometry height="25" width="183" x="219" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kiro" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Kiro" vertex="1">
+          <mxGeometry height="25" width="222" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kiro_d" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AWS製AIエージェント" vertex="1">
+          <mxGeometry height="25" width="183" x="219" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ghcodingagent" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Copilot coding agent" vertex="1">
+          <mxGeometry height="25" width="218" x="10" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="ghcodingagent_d" parent="cat05_04" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="GitHub製AIエージェント" vertex="1">
+          <mxGeometry height="25" width="183" x="219" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="cat05_05" parent="cat05" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#f3e5f5;strokeColor=#9673a6;fontFamily=Hiragino Sans;rounded=1;" value="🌐 Webアプリ型（ブラウザ）" vertex="1">
+          <mxGeometry height="140" width="423" x="10" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="bolt" parent="cat05_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Bolt.new" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bolt_d" parent="cat05_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="プロンプトからアプリ生成" vertex="1">
+          <mxGeometry height="25" width="230" x="176" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="replit2" parent="cat05_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Replit" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="replit2_d" parent="cat05_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Web上で開発・実行" vertex="1">
+          <mxGeometry height="25" width="230" x="176" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aistudioweb" parent="cat05_05" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Google AI Studio" vertex="1">
+          <mxGeometry height="25" width="176" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aistudioweb_d" parent="cat05_05" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製AIプレイグラウンド" vertex="1">
+          <mxGeometry height="25" width="230" x="176" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat06" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Hiragino Sans;rounded=1;" value="🎨 デザインツール" vertex="1">
+          <mxGeometry height="235" width="440" x="1180" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cat06_desc" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AI搭載のデザイン・UIツール" vertex="1">
+          <mxGeometry height="25" width="300" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="canva" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Canva" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="canva_d" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AI機能搭載の定番デザインツール" vertex="1">
+          <mxGeometry height="30" width="280" x="130" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="figma" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Figma" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="figma_d" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AI機能搭載のUIデザインツール" vertex="1">
+          <mxGeometry height="30" width="280" x="130" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="framer" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Framer" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="framer_d" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIでWebサイト自動生成" vertex="1">
+          <mxGeometry height="30" width="280" x="130" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="galileo" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Hiragino Sans;" value="Galileo AI" vertex="1">
+          <mxGeometry height="30" width="120" x="10" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="galileo_d" parent="cat06" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="テキストからUI生成" vertex="1">
+          <mxGeometry height="30" width="280" x="130" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="cat09" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Hiragino Sans;rounded=1;" value="⚡ 生産性・自動化" vertex="1">
+          <mxGeometry height="508" width="820" x="1640" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cat09_desc" parent="cat09" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="業務効率化・自動化のためのAIツール" vertex="1">
+          <mxGeometry height="25" width="400" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cat09_01" parent="cat09" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#fce4ec;strokeColor=#b85450;fontFamily=Hiragino Sans;rounded=1;" value="🔄 ワークフロー自動化型" vertex="1">
+          <mxGeometry height="140" width="390" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n8n" parent="cat09_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="n8n" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n8n_d" parent="cat09_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="オープンソースの自動化ツール" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zapier" parent="cat09_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Zapier AI" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zapier_d" parent="cat09_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="アプリ連携自動化の定番" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dify_wf" parent="cat09_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Dify" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dify_wf_d" parent="cat09_01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="LLMワークフロー構築" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat09_02" parent="cat09" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#fce4ec;strokeColor=#b85450;fontFamily=Hiragino Sans;rounded=1;" value="🧱 ノーコードアプリ開発型" vertex="1">
+          <mxGeometry height="230" width="390" x="410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bolt_nc" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Bolt.new" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bolt_nc_d" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="自然言語からアプリ生成" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovable" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Lovable" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lovable_d" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="会話でWebアプリ作成" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v0" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="v0" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v0_d" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Vercel製UIジェネレーター" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="base44" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Base44" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="base44_d" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="ノーコードアプリビルダー" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="replit_nc" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Replit" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="replit_nc_d" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="ブラウザ完結の開発環境" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="codegiant" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="CodeGiant" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="codegiant_d" parent="cat09_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIコード生成プラットフォーム" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cat09_03" parent="cat09" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#fce4ec;strokeColor=#b85450;fontFamily=Hiragino Sans;rounded=1;" value="📄 ドキュメント・プレゼン型" vertex="1">
+          <mxGeometry height="130" width="390" x="10" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gamma" parent="cat09_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Gamma" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gamma_d" parent="cat09_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIでスライド・資料を自動生成" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="notionai" parent="cat09_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Notion AI" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="notionai_d" parent="cat09_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="ドキュメント作成・編集を支援" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="genspark" parent="cat09_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="GenSpark" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="genspark_d" parent="cat09_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIリサーチ・レポート生成" vertex="1">
+          <mxGeometry height="25" width="270" x="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat09_04" parent="cat09" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#fce4ec;strokeColor=#b85450;fontFamily=Hiragino Sans;rounded=1;" value="🧠 ナレッジマネジメント型" vertex="1">
+          <mxGeometry height="90" width="390" x="10" y="371" as="geometry" />
+        </mxCell>
+        <mxCell id="notebooklm2" parent="cat09_04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="NotebookLM" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="notebooklm2_d" parent="cat09_04" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="文書を理解し質問に回答" vertex="1">
+          <mxGeometry height="25" width="250" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat07" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;startSize=40;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=Hiragino Sans;rounded=1;" value="🔧 AI開発基盤（企業・開発者向け）" vertex="1">
+          <mxGeometry height="497" width="1279" x="40" y="1159" as="geometry" />
+        </mxCell>
+        <mxCell id="cat07_desc" parent="cat07" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIアプリケーション開発のためのプラットフォーム・ツール群" vertex="1">
+          <mxGeometry height="25" width="500" x="10" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cat07_01" parent="cat07" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#eeeeee;strokeColor=#666666;fontFamily=Hiragino Sans;rounded=1;" value="☁️ クラウドAIプラットフォーム" vertex="1">
+          <mxGeometry height="180" width="443" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aws_ai" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="AWS (Bedrock)" vertex="1">
+          <mxGeometry height="25" width="248" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aws_ai_d" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Amazon製AI基盤" vertex="1">
+          <mxGeometry height="25" width="180" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="azure_ai" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Azure AI" vertex="1">
+          <mxGeometry height="25" width="250" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="azure_ai_d" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Microsoft製AI基盤" vertex="1">
+          <mxGeometry height="25" width="180" x="250" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gcp_ai" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Google Cloud (Vertex AI)" vertex="1">
+          <mxGeometry height="25" width="249" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gcp_ai_d" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Google製AI基盤" vertex="1">
+          <mxGeometry height="25" width="180" x="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aistudio" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="AI Studio" vertex="1">
+          <mxGeometry height="25" width="250" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aistudio_d" parent="cat07_01" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Gemini API開発環境" vertex="1">
+          <mxGeometry height="25" width="180" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cat07_02" parent="cat07" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#eeeeee;strokeColor=#666666;fontFamily=Hiragino Sans;rounded=1;" value="🧠 LLMプロバイダー" vertex="1">
+          <mxGeometry height="250" width="380" x="468" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="anthropic" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Anthropic" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="anthropic_d" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Claude APIを提供" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cohere" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Cohere" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cohere_d" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="企業向けLLM API" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="deepseek" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="DeepSeek" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="deepseek_d" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="高性能・低コストLLM" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="openrouter" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="OpenRouter" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="openrouter_d" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="複数LLMを統一API" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="openai" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="OpenAI" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="openai_d" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="GPT APIを提供" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mistral" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Mistral AI" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mistral_d" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="欧州発の高性能LLM" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="groq" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Groq" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="groq_d" parent="cat07_02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="超高速推論プラットフォーム" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cat07_03" parent="cat07" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#eeeeee;strokeColor=#666666;fontFamily=Hiragino Sans;rounded=1;" value="⚙️ 開発フレームワーク" vertex="1">
+          <mxGeometry height="190" width="380" x="863" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="langchain" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="LangChain" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="langchain_d" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="LLMアプリ開発フレームワーク" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="langgraph" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="LangGraph" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="langgraph_d" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="エージェント構築用グラフ" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="langsmith" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="LangSmith" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="langsmith_d" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="LLMアプリのデバッグ・監視" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dify_fw" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Dify" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dify_fw_d" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="ノーコードLLMアプリ構築" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mastra" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Mastra" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mastra_d" parent="cat07_03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="TypeScript製AIエージェントFW" vertex="1">
+          <mxGeometry height="25" width="240" x="130" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cat07_04" parent="cat07" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#eeeeee;strokeColor=#666666;fontFamily=Hiragino Sans;rounded=1;" value="🏠 モデルハブ・ローカル実行" vertex="1">
+          <mxGeometry height="130" width="380" x="10" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="huggingface" parent="cat07_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Hugging Face" vertex="1">
+          <mxGeometry height="25" width="140" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huggingface_d" parent="cat07_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="AIモデルのGitHub" vertex="1">
+          <mxGeometry height="25" width="220" x="150" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ollama" parent="cat07_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="Ollama" vertex="1">
+          <mxGeometry height="25" width="140" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ollama_d" parent="cat07_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="ローカルLLM実行環境" vertex="1">
+          <mxGeometry height="25" width="220" x="150" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lmstudio" parent="cat07_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="LM Studio" vertex="1">
+          <mxGeometry height="25" width="140" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lmstudio_d" parent="cat07_04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="GUIでローカルLLM管理" vertex="1">
+          <mxGeometry height="25" width="220" x="150" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cat07_05" parent="cat07" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;startSize=30;fillColor=#eeeeee;strokeColor=#666666;fontFamily=Hiragino Sans;rounded=1;" value="📋 プロトコル・標準" vertex="1">
+          <mxGeometry height="110" width="380" x="400" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="mcp" parent="cat07_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="MCP" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mcp_d" parent="cat07_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Model Context Protocol - AIツール連携規格" vertex="1">
+          <mxGeometry height="25" width="260" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a2a" parent="cat07_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Hiragino Sans;" value="A2A" vertex="1">
+          <mxGeometry height="25" width="100" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a2a_d" parent="cat07_05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Hiragino Sans;fontColor=#666666;" value="Agent-to-Agent Protocol - エージェント間通信" vertex="1">
+          <mxGeometry height="25" width="260" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_container" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=14;fontStyle=1;fontFamily=Hiragino Sans;verticalAlign=top;align=center;" value="会社別カラー" vertex="1">
+          <mxGeometry height="70" width="340" x="1500" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_openai_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1515" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_openai_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Hiragino Sans;" value="OpenAI" vertex="1">
+          <mxGeometry height="22" width="60" x="1538" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_google_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1615" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_google_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Hiragino Sans;" value="Google" vertex="1">
+          <mxGeometry height="22" width="60" x="1638" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_anthropic_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1715" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_anthropic_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Hiragino Sans;" value="Anthropic" vertex="1">
+          <mxGeometry height="22" width="70" x="1738" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_microsoft_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1515" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_microsoft_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Hiragino Sans;" value="Microsoft" vertex="1">
+          <mxGeometry height="22" width="65" x="1538" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_amazon_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1615" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_amazon_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Hiragino Sans;" value="Amazon" vertex="1">
+          <mxGeometry height="22" width="60" x="1638" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_meta_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1715" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_meta_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Hiragino Sans;" value="Meta" vertex="1">
+          <mxGeometry height="22" width="50" x="1738" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
