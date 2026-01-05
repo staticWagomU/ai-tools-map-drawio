@@ -234,9 +234,8 @@ AIアプリケーション開発のためのプラットフォーム・ツール
 
 このマップは [Draw.io](https://app.diagrams.net/) で作成されています。
 
-1. `ai-tools-map.drawio` ファイルを Draw.io で開く
-2. 編集後、保存
-3. GitHub Actions により自動的にPNG画像が生成されます
+1. https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FstaticWagomU%2Fai-tools-map-drawio%2Frefs%2Fheads%2Fmain%2Fai-tools-map.drawio を開く
+2. 編集後、保存し、レポジトリ内へ配置する
 
 ---
 
