@@ -17,6 +17,7 @@
 | Copilot | Microsoft製のAIアシスタント |
 | Grok | xAI製のリアルタイム情報AI |
 | Qwen | Alibaba製のAI |
+| Llama | Meta製オープンウェイトLLM |
 
 **🎤 音声アシスタント**: Siri, Alexa, Google Assistant
 
