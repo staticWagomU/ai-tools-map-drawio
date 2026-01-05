@@ -1,0 +1,61 @@
+name: 💡 改善提案
+description: マップの改善やアイデアを提案したい場合
+title: "[Improvement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        改善提案ありがとうございます！
+        マップをより良くするためのアイデアをお聞かせください。
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: 改善の種類
+      description: どのような改善ですか？
+      options:
+        - 📋 カテゴリの追加・変更
+        - 🎨 デザイン・レイアウトの改善
+        - 📝 既存ツールの情報更新
+        - 🗑️ 古いツールの削除提案
+        - 📚 READMEの改善
+        - ⚙️ 自動化・ワークフローの改善
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 現状の問題点
+      description: 現在の状態のどこに問題がありますか？
+      placeholder: 例：カテゴリが多すぎて見づらい
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案内容
+      description: 具体的にどのように改善すべきですか？
+      placeholder: |
+        例：カテゴリをグループ化して階層構造にする
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: 期待される効果
+      description: この改善によってどのようなメリットがありますか？
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足情報
+      description: 参考リンクやスクリーンショットがあれば添付してください
+    validations:
+      required: false

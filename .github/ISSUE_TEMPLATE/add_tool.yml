@@ -1,0 +1,94 @@
+name: ➕ ツール追加提案
+description: マップに新しいAIツールを追加したい場合
+title: "[Add]: "
+labels: ["enhancement", "new-tool"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        新しいツールの追加提案ありがとうございます！
+        以下の情報をできるだけ詳しく記入してください。
+
+  - type: input
+    id: tool_name
+    attributes:
+      label: ツール名
+      description: 追加したいツールの名前
+      placeholder: 例：Cursor
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: カテゴリ
+      description: ツールが属するカテゴリを選択してください
+      options:
+        - 💬 チャットAI（会話するAI）
+        - 🎨 画像生成AI（絵を作るAI）
+        - 🎬 動画生成AI（動画を作るAI）
+        - 🎵 音楽生成AI（音楽を作るAI）
+        - 🔍 AI検索（AIで調べる）
+        - 💻 コード作成AI - CLI型
+        - 💻 コード作成AI - IDE統合型
+        - 💻 コード作成AI - AIエディタ型
+        - 💻 コード作成AI - AIエージェント型
+        - 💻 コード作成AI - Webアプリ型
+        - 🎨 デザインツール
+        - ⚡ 生産性・自動化 - ワークフロー自動化
+        - ⚡ 生産性・自動化 - ノーコードアプリ開発
+        - ⚡ 生産性・自動化 - ドキュメント・プレゼン
+        - ⚡ 生産性・自動化 - ナレッジマネジメント
+        - 🔧 AI開発基盤 - クラウドAIプラットフォーム
+        - 🔧 AI開発基盤 - LLMプロバイダー
+        - 🔧 AI開発基盤 - 開発フレームワーク
+        - 🔧 AI開発基盤 - モデルハブ・ローカル実行
+        - 🔧 AI開発基盤 - プロトコル・標準
+        - その他（新規カテゴリ提案）
+    validations:
+      required: true
+
+  - type: input
+    id: company
+    attributes:
+      label: 提供元企業
+      description: ツールを提供している企業名
+      placeholder: 例：OpenAI、Google、Anthropic
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 公式サイトURL
+      description: ツールの公式サイトまたはドキュメントへのリンク
+      placeholder: https://example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: ツールの説明
+      description: ツールの概要を簡潔に説明してください（マップの説明欄に使用）
+      placeholder: 例：AI特化エディタの人気No.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 追加理由
+      description: なぜこのツールをマップに追加すべきだと思いますか？
+      placeholder: |
+        例：2025年に急成長しているツールで、多くの開発者が使用している
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足情報
+      description: その他、参考になる情報があれば記載してください
+    validations:
+      required: false
