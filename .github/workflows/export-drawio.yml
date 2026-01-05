@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -34,6 +35,8 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
+            # Save list of changed PNG files for later use
+            git diff --cached --name-only --diff-filter=ACMR -- '*.png' > /tmp/changed_pngs.txt
           fi
 
       - name: Commit and push PNG files
@@ -43,3 +46,51 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "docs: update DrawIO PNG exports"
           git push
+
+      - name: Comment PR with exported images
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BASE_BRANCH="${{ github.event.pull_request.base.ref }}"
+          HEAD_BRANCH="${{ github.head_ref }}"
+          REPO="${{ github.repository }}"
+
+          # Build markdown comment with Before/After comparison
+          {
+            echo "## 📊 DrawIO Export Preview"
+            echo ""
+            echo "The following PNG files have been automatically exported:"
+            echo ""
+
+            while IFS= read -r png_file; do
+              if [ -n "$png_file" ]; then
+                filename=$(basename "$png_file")
+                after_url="https://raw.githubusercontent.com/${REPO}/${HEAD_BRANCH}/${png_file}"
+                before_url="https://raw.githubusercontent.com/${REPO}/${BASE_BRANCH}/${png_file}"
+
+                echo "### ${filename}"
+                echo ""
+
+                # Check if file exists in base branch
+                if git ls-tree -r "origin/${BASE_BRANCH}" --name-only | grep -q "^${png_file}$"; then
+                  # File exists in base branch - show Before/After comparison
+                  echo "<table>"
+                  echo "<tr><th>Before</th><th>After</th></tr>"
+                  echo "<tr>"
+                  echo "<td><img src=\"${before_url}\" alt=\"Before\" width=\"400\"></td>"
+                  echo "<td><img src=\"${after_url}\" alt=\"After\" width=\"400\"></td>"
+                  echo "</tr>"
+                  echo "</table>"
+                else
+                  # New file - show only After
+                  echo "🆕 **New file**"
+                  echo ""
+                  echo "![${filename}](${after_url})"
+                fi
+                echo ""
+              fi
+            done < /tmp/changed_pngs.txt
+          } > /tmp/pr_comment.md
+
+          gh pr comment ${{ github.event.pull_request.number }} --body-file /tmp/pr_comment.md
