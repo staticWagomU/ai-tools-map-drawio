@@ -13,10 +13,11 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Export DrawIO files to PNG
         uses: rlespinasse/drawio-export-action@v2
